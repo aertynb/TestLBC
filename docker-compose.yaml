@@ -11,12 +11,3 @@ services:
       POSTGRES_DB: db
       POSTGRES_USER: root
       POSTGRES_PASSWORD: root
-  backend:
-    image: backend:dev
-    ports:
-      - "8080:8080"
-
-  frontend:
-    image: frontend:dev
-    ports:
-      - "3000:3000"
